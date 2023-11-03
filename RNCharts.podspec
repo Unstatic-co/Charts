@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/Unstatic-co/Charts.git", :tag => "v#{s.version}" }
   s.default_subspec = "Core"
   s.swift_version = '5.7'
-  s.cocoapods_version = '>= 1.5.0'
+  s.cocoapods_version = '>= 1.13.0'
   s.pod_target_xcconfig = {
       "DEFINES_MODULE" => 'YES'
   }
